@@ -1,0 +1,106 @@
+/* allow wrapping in 'pre' tag */
+/* see: http://stackoverflow.com/questions/248011/how-do-i-wrap-text-in-a-pre-tag */
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#publ {
+	padding-bottom: 2px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.teaching li {
+	margin-bottom: .3em;
+	clear: both;
+}
+
+.autoref a[href^="http"] {
+	padding-right: 0.1em;
+}
+
+.autoref li {
+	margin-bottom: 1em;
+	clear: both;
+}
+
+.autoref h2 {
+	font-size: 11pt !important;
+	padding-left: 1em !important;
+	padding-top: 0em !important;
+	margin-top: 0em !important; 
+}
+
+.autoref .authors {
+	display: block;
+}
+
+.autoref .title {
+	display: block;
+	font-weight: bold;
+}
+
+.autoref .in {
+}
+
+.autoref .links {
+    margin-top: 0.1em;
+	margin-left: 0.1em;
+}
+
+.autoref .bibtexlink {
+	margin-top: 0.1em;
+    margin-right: 0.1em;
+	padding-right: 1em;
+	float: right;
+	margin-bottom: 0.7em;
+}
+
+.autoref .abstractlink {
+        margin-top: 0.1em;
+        margin-right: 0.1em;
+        padding-right: 1em;
+        float: right;
+        margin-bottom: 0.7em;
+}
+
+.autobibentry {
+	font-family: monospace;
+	white-space: pre-wrap;
+	margin: 20pt;
+	border: 1pt solid black;
+    padding-left: 1em;
+	padding-right: 1em;
+    background-color: #FFFFEE;
+    max-width:1200px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.autoabstract {
+	font: 10pt helvetica,arial,sans-serif;
+	margin: 20pt;
+	border: 1pt solid black;
+	padding: 1em;
+	background-color: #FFFFEE;
+    max-width:700px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.autoabstract .authors {
+        display: block;
+}
+
+.autoabstract .title {
+        display: block;
+        font-weight: bold;
+}
+
+.autoabstract .abstract {
+	white-space: pre-wrap;
+}
